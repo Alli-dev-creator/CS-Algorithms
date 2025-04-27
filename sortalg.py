@@ -1,5 +1,5 @@
 import random, time, math
-
+from timeit import timeit
 # Generate sensor data
 data = [random.uniform(0, 100) for _ in range(1000)]
 target = data[500]
